@@ -72,7 +72,7 @@ Bu projeyi kendi bilgisayarınızda çalıştırmak ve sonuçları görmek için
 ### 1. Projeyi İndirin (Clone)
 Terminal veya komut satırını açın ve şu komutu yazın:
 ```bash
-git clone https://github.com/kullaniciadi/nyc-mobility-intelligence.git
+git clone https://github.com/Egekocaslqn00/nyc-mobility-intelligence.git
 cd nyc-mobility-intelligence
 ```
 
@@ -82,12 +82,12 @@ Projenin çalışması için gerekli Python paketlerini yükleyin:
 pip install -r requirements.txt
 ```
 
-### 3. Analizi Başlatın
-Tüm veri indirme, temizleme, model eğitme ve analiz işlemlerini tek bir komutla başlatın:
+### 3. Analizi Başlatın (Otomatik Veri İndirme)
+Tüm veri indirme, temizleme, model eğitme ve analiz işlemlerini tek bir komutla başlatın. **Veri dosyaları otomatik olarak indirilecektir, manuel işlem yapmanıza gerek yoktur.**
 ```bash
 python src/main_analysis.py
 ```
-*Bu işlem bilgisayarınızın hızına göre 1-2 dakika sürebilir.*
+*Bu işlem bilgisayarınızın hızına ve internet bağlantınıza göre 2-5 dakika sürebilir.*
 
 ### 4. Sonuçları İnceleyin
 Analiz tamamlandığında, sonuçlara şu dosyalardan ulaşabilirsiniz:

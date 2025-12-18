@@ -2,7 +2,7 @@
 NYC Urban Mobility Intelligence Platform
 =========================================
 Kapsamlı NYC Taksi ve Rideshare Veri Analizi & Tahmin Sistemi
-(Bellek Optimizasyonlu Versiyon)
+(Otomatik Veri İndirme Özellikli)
 """
 
 import pandas as pd
@@ -10,28 +10,60 @@ import numpy as np
 import pyarrow.parquet as pq
 from datetime import datetime
 import warnings
-warnings.filterwarnings('ignore')
-
+import requests
+import os
+import gc
+import joblib
+import json
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, r2_score
 import xgboost as xgb
-import joblib
-import json
-import os
-import gc
+
+warnings.filterwarnings('ignore')
 
 # Paths
-DATA_DIR = "/home/ubuntu/nyc_mobility_intelligence/data"
-OUTPUT_DIR = "/home/ubuntu/nyc_mobility_intelligence/visualizations"
-MODEL_DIR = "/home/ubuntu/nyc_mobility_intelligence/models"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+OUTPUT_DIR = os.path.join(BASE_DIR, "visualizations")
+MODEL_DIR = os.path.join(BASE_DIR, "models")
 
+os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(MODEL_DIR, exist_ok=True)
+
+# Data URLs (Official NYC TLC Data)
+URLS = {
+    "yellow_2024_01.parquet": "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet",
+    "fhvhv_2024_01.parquet": "https://d37ci6vzurychx.cloudfront.net/trip-data/fhvhv_tripdata_2024-01.parquet",
+    "taxi_zone_lookup.csv": "https://d37ci6vzurychx.cloudfront.net/misc/taxi+_zone_lookup.csv"
+}
+
+def download_data_if_not_exists():
+    print("\n[0/8] Veri kontrolü ve indirme...")
+    for filename, url in URLS.items():
+        filepath = os.path.join(DATA_DIR, filename)
+        if not os.path.exists(filepath):
+            print(f"  İndiriliyor: {filename} (Bu işlem internet hızınıza göre zaman alabilir)...")
+            try:
+                response = requests.get(url, stream=True)
+                response.raise_for_status()
+                with open(filepath, 'wb') as f:
+                    for chunk in response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+                print(f"  ✅ İndirildi: {filepath}")
+            except Exception as e:
+                print(f"  ❌ Hata: {filename} indirilemedi. {str(e)}")
+                raise
+        else:
+            print(f"  ✅ Mevcut: {filename}")
 
 print("=" * 60)
 print("NYC Urban Mobility Intelligence Platform")
 print("=" * 60)
+
+# 0. DOWNLOAD DATA
+download_data_if_not_exists()
 
 # =============================================================================
 # 1. DATA LOADING (Optimized - Only needed columns)
@@ -399,15 +431,3 @@ print(f"\n✅ Analiz tamamlandı!")
 print(f"📁 Sonuçlar: {OUTPUT_DIR}/analysis_results.json")
 print(f"🤖 Modeller: {MODEL_DIR}/")
 print("=" * 60)
-
-print("\n📊 ÖZET RAPOR")
-print("-" * 40)
-print(f"Yellow Taxi yolculuğu: {results['summary_stats']['yellow_taxi']['total_trips']:,}")
-print(f"FHV yolculuğu: {results['summary_stats']['fhv']['total_trips']:,}")
-print(f"Ortalama ücret: ${results['summary_stats']['yellow_taxi']['avg_fare']}")
-print(f"Ortalama bahşiş: %{results['summary_stats']['yellow_taxi']['avg_tip_pct']}")
-print(f"\nPazar Payı: Yellow %{results['market_share']['overall']['yellow_taxi_pct']} vs FHV %{results['market_share']['overall']['fhv_pct']}")
-print(f"Uber vs Lyft: %{results['market_share']['uber_vs_lyft']['uber_pct']} vs %{results['market_share']['uber_vs_lyft']['lyft_pct']}")
-print(f"\nML Performans:")
-print(f"  Bahşiş: MAE={tip_mae:.2f}%, R²={tip_r2:.3f}")
-print(f"  Talep: MAE={demand_mae:.0f}, R²={demand_r2:.3f}")
