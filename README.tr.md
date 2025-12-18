@@ -4,6 +4,8 @@
 
 > **[Click here for English README](README.md)**
 
+> 🚀 **CANLI DASHBOARD ÖZELLİĞİ:** Bu proje, analiz sonuçlarını sadece raporlamakla kalmaz, aynı zamanda **etkileşimli bir web dashboard** sunar. Projeyi indirip çalıştırdığınızda, verilerle anlık olarak etkileşime geçebilir, grafikleri inceleyebilir ve canlı KPI takibi yapabilirsiniz.
+
 > ⚠️ **Önemli Not:** GitHub'ın dosya boyutu limitleri nedeniyle 1GB'lık veri setleri bu depoda doğrudan görünmemektedir. Ancak endişelenmeyin! Projeyi çalıştırdığınızda veriler **otomatik olarak indirilecektir**. Detaylar aşağıdadır.
 
 Bu proje, New York City'nin karmaşık ulaşım ağını anlamak, tahminlemek ve optimize etmek için geliştirilmiş uçtan uca bir veri bilimi projesidir. **~1 Milyon satırlık** gerçek dünya verisini (NYC TLC) kullanarak, talep tahmini, pazar analizi ve sürücü optimizasyonu yapan yapay zeka modelleri içerir.
@@ -59,6 +61,25 @@ Bu proje, bir ulaşım şirketinin veya şehir planlamacısının ihtiyaç duyac
 
 ---
 
+## 💻 Etkileşimli Web Dashboard (Komuta Merkezi)
+
+Analiz sonuçlarını sadece teknik raporlarda bırakmadık, herkesin anlayabileceği modern bir web arayüzüne dönüştürdük.
+
+![Dashboard Preview](visualizations/images/dashboard_preview.png)
+
+### 🛠️ Kullanılan Teknolojiler
+*   **React:** Modern ve hızlı kullanıcı arayüzü için.
+*   **Tailwind CSS:** "Neon Metropolis" konseptli şık ve responsive tasarım için.
+*   **Recharts:** Verileri etkileşimli grafiklere (hover, zoom özellikli) dönüştürmek için.
+
+### 🎯 Ne İşe Yarar?
+Bu dashboard, teknik olmayan yöneticilerin (C-Level) veya operasyon ekiplerinin karmaşık verileri bir bakışta anlamasını sağlar.
+*   **Canlı KPI Kartları:** Toplam gelir, ortalama ücret gibi kritik metrikleri anlık gösterir.
+*   **Etkileşimli Grafikler:** Mouse ile üzerine gelerek saatlik talep değişimlerini inceleyebilirsiniz.
+*   **Karar Destek Sistemi:** "Hangi saatte araçlar nereye gitmeli?" sorusuna görsel cevap verir.
+
+---
+
 ## 🏆 Somut İş Sonuçları (Business Impact)
 
 *   **Talep Tahmini Doğruluğu:** %90 (R²: 0.899)
@@ -103,6 +124,14 @@ pip install -r requirements.txt
 Aşağıdaki komutu yazın ve arkanıza yaslanın. Kod verileri indirecek, modelleri eğitecek ve sonuçları üretecektir.
 ```bash
 python src/main_analysis.py
+```
+
+**Adım 4: Web Dashboard'u Başlatın (Opsiyonel)**
+Eğer etkileşimli ekranı görmek isterseniz:
+```bash
+cd dashboard
+npm install
+npm run dev
 ```
 
 ---

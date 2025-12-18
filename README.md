@@ -59,6 +59,25 @@ This project provides critical capabilities needed by transportation companies o
 
 ---
 
+## 💻 Interactive Web Dashboard (Command Center)
+
+We didn't leave the analysis results in technical reports; we transformed them into a modern web interface that everyone can understand.
+
+![Dashboard Preview](visualizations/images/dashboard_preview.png)
+
+### 🛠️ Technologies Used
+*   **React:** For a modern and fast user interface.
+*   **Tailwind CSS:** For a stylish and responsive design with the "Neon Metropolis" concept.
+*   **Recharts:** To transform data into interactive charts (with hover and zoom features).
+
+### 🎯 What is it for?
+This dashboard allows non-technical executives (C-Level) or operations teams to understand complex data at a glance.
+*   **Live KPI Cards:** Instantly shows critical metrics like total revenue and average fare.
+*   **Interactive Charts:** You can examine hourly demand changes by hovering with your mouse.
+*   **Decision Support System:** Visually answers the question "Where should vehicles go at what time?".
+
+---
+
 ## 🏆 Business Impact & Results
 
 *   **Demand Prediction Accuracy:** 90% (R²: 0.899)
@@ -103,6 +122,14 @@ pip install -r requirements.txt
 Run the following command and sit back. The code will download data, train models, and generate results automatically.
 ```bash
 python src/main_analysis.py
+```
+
+**Step 4: Start Web Dashboard (Optional)**
+If you want to see the interactive screen:
+```bash
+cd dashboard
+npm install
+npm run dev
 ```
 
 ---

@@ -2,3 +2,9 @@
 models/*.joblib
 dashboard/.git
 dashboard/node_modules
+
+nyc_mobility_project.zip
+create_dashboard_preview.py
+src/create_dashboard_collage.py
+__pycache__/
+*.pyc
