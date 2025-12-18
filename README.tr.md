@@ -4,6 +4,8 @@
 
 > **[Click here for English README](README.md)**
 
+> ⚠️ **Önemli Not:** GitHub'ın dosya boyutu limitleri nedeniyle 1GB'lık veri setleri bu depoda doğrudan görünmemektedir. Ancak endişelenmeyin! Projeyi çalıştırdığınızda veriler **otomatik olarak indirilecektir**. Detaylar aşağıdadır.
+
 Bu proje, New York City'nin karmaşık ulaşım ağını anlamak, tahminlemek ve optimize etmek için geliştirilmiş uçtan uca bir veri bilimi projesidir. **~1 Milyon satırlık** gerçek dünya verisini (NYC TLC) kullanarak, talep tahmini, pazar analizi ve sürücü optimizasyonu yapan yapay zeka modelleri içerir.
 
 ---

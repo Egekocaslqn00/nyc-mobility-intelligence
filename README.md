@@ -4,6 +4,8 @@
 
 > **[Türkçe README için buraya tıklayın](README.tr.md)**
 
+> ⚠️ **Important Note:** Due to GitHub's file size limits, the 1GB datasets are not directly visible in this repository. But don't worry! The data will be **automatically downloaded** when you run the project. Details are below.
+
 This is an end-to-end data science project designed to understand, predict, and optimize New York City's complex transportation network. Using **~1 Million rows** of real-world data (NYC TLC), it features AI models for demand prediction, market analysis, and driver optimization.
 
 ---
