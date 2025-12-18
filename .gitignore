@@ -1,0 +1,4 @@
+*.parquet
+models/*.joblib
+dashboard/.git
+dashboard/node_modules

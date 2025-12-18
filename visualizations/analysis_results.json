@@ -1,0 +1,1351 @@
+{
+  "summary_stats": {
+    "yellow_taxi": {
+      "total_trips": 457702,
+      "avg_fare": 18.36,
+      "avg_distance": 3.29,
+      "avg_duration": 14.95,
+      "avg_tip_pct": 21.2,
+      "total_revenue": 10244134.88
+    },
+    "fhv": {
+      "total_trips": 499921,
+      "uber_trips": 366532,
+      "lyft_trips": 133389,
+      "avg_distance": 4.85,
+      "avg_duration": 18.53
+    }
+  },
+  "hourly_demand": {
+    "yellow_taxi": [
+      {
+        "hour": 0,
+        "trips": 11767
+      },
+      {
+        "hour": 1,
+        "trips": 7627
+      },
+      {
+        "hour": 2,
+        "trips": 5301
+      },
+      {
+        "hour": 3,
+        "trips": 3449
+      },
+      {
+        "hour": 4,
+        "trips": 2150
+      },
+      {
+        "hour": 5,
+        "trips": 2634
+      },
+      {
+        "hour": 6,
+        "trips": 5868
+      },
+      {
+        "hour": 7,
+        "trips": 12343
+      },
+      {
+        "hour": 8,
+        "trips": 17537
+      },
+      {
+        "hour": 9,
+        "trips": 19969
+      },
+      {
+        "hour": 10,
+        "trips": 21907
+      },
+      {
+        "hour": 11,
+        "trips": 23755
+      },
+      {
+        "hour": 12,
+        "trips": 25740
+      },
+      {
+        "hour": 13,
+        "trips": 26742
+      },
+      {
+        "hour": 14,
+        "trips": 28825
+      },
+      {
+        "hour": 15,
+        "trips": 29902
+      },
+      {
+        "hour": 16,
+        "trips": 29854
+      },
+      {
+        "hour": 17,
+        "trips": 31925
+      },
+      {
+        "hour": 18,
+        "trips": 32785
+      },
+      {
+        "hour": 19,
+        "trips": 28624
+      },
+      {
+        "hour": 20,
+        "trips": 25485
+      },
+      {
+        "hour": 21,
+        "trips": 25054
+      },
+      {
+        "hour": 22,
+        "trips": 22037
+      },
+      {
+        "hour": 23,
+        "trips": 16422
+      }
+    ],
+    "fhv": [
+      {
+        "hour": 0,
+        "trips": 17642
+      },
+      {
+        "hour": 1,
+        "trips": 12536
+      },
+      {
+        "hour": 2,
+        "trips": 9544
+      },
+      {
+        "hour": 3,
+        "trips": 7705
+      },
+      {
+        "hour": 4,
+        "trips": 7550
+      },
+      {
+        "hour": 5,
+        "trips": 8678
+      },
+      {
+        "hour": 6,
+        "trips": 14304
+      },
+      {
+        "hour": 7,
+        "trips": 21837
+      },
+      {
+        "hour": 8,
+        "trips": 26521
+      },
+      {
+        "hour": 9,
+        "trips": 22937
+      },
+      {
+        "hour": 10,
+        "trips": 20760
+      },
+      {
+        "hour": 11,
+        "trips": 20453
+      },
+      {
+        "hour": 12,
+        "trips": 21074
+      },
+      {
+        "hour": 13,
+        "trips": 22157
+      },
+      {
+        "hour": 14,
+        "trips": 24314
+      },
+      {
+        "hour": 15,
+        "trips": 25010
+      },
+      {
+        "hour": 16,
+        "trips": 25964
+      },
+      {
+        "hour": 17,
+        "trips": 29869
+      },
+      {
+        "hour": 18,
+        "trips": 31231
+      },
+      {
+        "hour": 19,
+        "trips": 29324
+      },
+      {
+        "hour": 20,
+        "trips": 26820
+      },
+      {
+        "hour": 21,
+        "trips": 25973
+      },
+      {
+        "hour": 22,
+        "trips": 25168
+      },
+      {
+        "hour": 23,
+        "trips": 22550
+      }
+    ]
+  },
+  "daily_demand": {
+    "yellow_taxi": [
+      {
+        "day_name": "Monday",
+        "trips": 62315
+      },
+      {
+        "day_name": "Tuesday",
+        "trips": 71965
+      },
+      {
+        "day_name": "Wednesday",
+        "trips": 76868
+      },
+      {
+        "day_name": "Thursday",
+        "trips": 66718
+      },
+      {
+        "day_name": "Friday",
+        "trips": 63506
+      },
+      {
+        "day_name": "Saturday",
+        "trips": 64809
+      },
+      {
+        "day_name": "Sunday",
+        "trips": 51521
+      }
+    ],
+    "fhv": [
+      {
+        "day_name": "Monday",
+        "trips": 72339
+      },
+      {
+        "day_name": "Tuesday",
+        "trips": 73879
+      },
+      {
+        "day_name": "Wednesday",
+        "trips": 75694
+      },
+      {
+        "day_name": "Thursday",
+        "trips": 63718
+      },
+      {
+        "day_name": "Friday",
+        "trips": 70884
+      },
+      {
+        "day_name": "Saturday",
+        "trips": 77684
+      },
+      {
+        "day_name": "Sunday",
+        "trips": 65723
+      }
+    ]
+  },
+  "borough_analysis": {
+    "yellow_taxi": [
+      {
+        "PU_Borough": "Bronx",
+        "trips": 805,
+        "avg_fare": 32.36,
+        "total_revenue": 26052.1,
+        "avg_tip_pct": 0.59,
+        "avg_distance": 7.84
+      },
+      {
+        "PU_Borough": "Brooklyn",
+        "trips": 2760,
+        "avg_fare": 28.35,
+        "total_revenue": 78241.55,
+        "avg_tip_pct": 7.16,
+        "avg_distance": 6.09
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "trips": 410931,
+        "avg_fare": 14.73,
+        "total_revenue": 6051448.62,
+        "avg_tip_pct": 21.82,
+        "avg_distance": 2.28
+      },
+      {
+        "PU_Borough": "Queens",
+        "trips": 41651,
+        "avg_fare": 53.18,
+        "total_revenue": 2214806.93,
+        "avg_tip_pct": 16.56,
+        "avg_distance": 12.95
+      },
+      {
+        "PU_Borough": "Unknown",
+        "trips": 1507,
+        "avg_fare": 19.23,
+        "total_revenue": 28982.81,
+        "avg_tip_pct": 20.06,
+        "avg_distance": 3.51
+      }
+    ],
+    "fhv": [
+      {
+        "PU_Borough": "Bronx",
+        "trips": 59794
+      },
+      {
+        "PU_Borough": "Brooklyn",
+        "trips": 129873
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "trips": 200223
+      },
+      {
+        "PU_Borough": "Queens",
+        "trips": 102661
+      },
+      {
+        "PU_Borough": "Staten Island",
+        "trips": 7350
+      }
+    ]
+  },
+  "market_share": {
+    "hourly": [
+      {
+        "hour": 0,
+        "yellow_taxi": 11767,
+        "fhv": 17642,
+        "yellow_pct": 40.0,
+        "fhv_pct": 60.0
+      },
+      {
+        "hour": 1,
+        "yellow_taxi": 7627,
+        "fhv": 12536,
+        "yellow_pct": 37.8,
+        "fhv_pct": 62.2
+      },
+      {
+        "hour": 2,
+        "yellow_taxi": 5301,
+        "fhv": 9544,
+        "yellow_pct": 35.7,
+        "fhv_pct": 64.3
+      },
+      {
+        "hour": 3,
+        "yellow_taxi": 3449,
+        "fhv": 7705,
+        "yellow_pct": 30.9,
+        "fhv_pct": 69.1
+      },
+      {
+        "hour": 4,
+        "yellow_taxi": 2150,
+        "fhv": 7550,
+        "yellow_pct": 22.2,
+        "fhv_pct": 77.8
+      },
+      {
+        "hour": 5,
+        "yellow_taxi": 2634,
+        "fhv": 8678,
+        "yellow_pct": 23.3,
+        "fhv_pct": 76.7
+      },
+      {
+        "hour": 6,
+        "yellow_taxi": 5868,
+        "fhv": 14304,
+        "yellow_pct": 29.1,
+        "fhv_pct": 70.9
+      },
+      {
+        "hour": 7,
+        "yellow_taxi": 12343,
+        "fhv": 21837,
+        "yellow_pct": 36.1,
+        "fhv_pct": 63.9
+      },
+      {
+        "hour": 8,
+        "yellow_taxi": 17537,
+        "fhv": 26521,
+        "yellow_pct": 39.8,
+        "fhv_pct": 60.2
+      },
+      {
+        "hour": 9,
+        "yellow_taxi": 19969,
+        "fhv": 22937,
+        "yellow_pct": 46.5,
+        "fhv_pct": 53.5
+      },
+      {
+        "hour": 10,
+        "yellow_taxi": 21907,
+        "fhv": 20760,
+        "yellow_pct": 51.3,
+        "fhv_pct": 48.7
+      },
+      {
+        "hour": 11,
+        "yellow_taxi": 23755,
+        "fhv": 20453,
+        "yellow_pct": 53.7,
+        "fhv_pct": 46.3
+      },
+      {
+        "hour": 12,
+        "yellow_taxi": 25740,
+        "fhv": 21074,
+        "yellow_pct": 55.0,
+        "fhv_pct": 45.0
+      },
+      {
+        "hour": 13,
+        "yellow_taxi": 26742,
+        "fhv": 22157,
+        "yellow_pct": 54.7,
+        "fhv_pct": 45.3
+      },
+      {
+        "hour": 14,
+        "yellow_taxi": 28825,
+        "fhv": 24314,
+        "yellow_pct": 54.2,
+        "fhv_pct": 45.8
+      },
+      {
+        "hour": 15,
+        "yellow_taxi": 29902,
+        "fhv": 25010,
+        "yellow_pct": 54.5,
+        "fhv_pct": 45.5
+      },
+      {
+        "hour": 16,
+        "yellow_taxi": 29854,
+        "fhv": 25964,
+        "yellow_pct": 53.5,
+        "fhv_pct": 46.5
+      },
+      {
+        "hour": 17,
+        "yellow_taxi": 31925,
+        "fhv": 29869,
+        "yellow_pct": 51.7,
+        "fhv_pct": 48.3
+      },
+      {
+        "hour": 18,
+        "yellow_taxi": 32785,
+        "fhv": 31231,
+        "yellow_pct": 51.2,
+        "fhv_pct": 48.8
+      },
+      {
+        "hour": 19,
+        "yellow_taxi": 28624,
+        "fhv": 29324,
+        "yellow_pct": 49.4,
+        "fhv_pct": 50.6
+      },
+      {
+        "hour": 20,
+        "yellow_taxi": 25485,
+        "fhv": 26820,
+        "yellow_pct": 48.7,
+        "fhv_pct": 51.3
+      },
+      {
+        "hour": 21,
+        "yellow_taxi": 25054,
+        "fhv": 25973,
+        "yellow_pct": 49.1,
+        "fhv_pct": 50.9
+      },
+      {
+        "hour": 22,
+        "yellow_taxi": 22037,
+        "fhv": 25168,
+        "yellow_pct": 46.7,
+        "fhv_pct": 53.3
+      },
+      {
+        "hour": 23,
+        "yellow_taxi": 16422,
+        "fhv": 22550,
+        "yellow_pct": 42.1,
+        "fhv_pct": 57.9
+      }
+    ],
+    "overall": {
+      "yellow_taxi_pct": 47.8,
+      "fhv_pct": 52.2
+    },
+    "uber_vs_lyft": {
+      "uber_pct": 73.3,
+      "lyft_pct": 26.7
+    }
+  },
+  "profitable_locations": {
+    "top_zones": [
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "Baisley Park",
+        "avg_fare": 76.38,
+        "total_revenue": 10006.43,
+        "trip_count": 131,
+        "avg_tip_pct": 11.65,
+        "avg_distance": 13.24
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "JFK Airport",
+        "avg_fare": 75.94,
+        "total_revenue": 1719408.79,
+        "trip_count": 22642,
+        "avg_tip_pct": 14.23,
+        "avg_distance": 16.0
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "Flushing Meadows-Corona Park",
+        "avg_fare": 68.39,
+        "total_revenue": 5197.67,
+        "trip_count": 76,
+        "avg_tip_pct": 13.0,
+        "avg_distance": 9.1
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "Springfield Gardens South",
+        "avg_fare": 65.39,
+        "total_revenue": 4315.71,
+        "trip_count": 66,
+        "avg_tip_pct": 9.33,
+        "avg_distance": 12.52
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "South Jamaica",
+        "avg_fare": 64.83,
+        "total_revenue": 5834.29,
+        "trip_count": 90,
+        "avg_tip_pct": 8.78,
+        "avg_distance": 11.29
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "South Ozone Park",
+        "avg_fare": 63.98,
+        "total_revenue": 4606.23,
+        "trip_count": 72,
+        "avg_tip_pct": 7.84,
+        "avg_distance": 8.76
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "LaGuardia Airport",
+        "avg_fare": 55.63,
+        "total_revenue": 807847.23,
+        "trip_count": 14521,
+        "avg_tip_pct": 21.14,
+        "avg_distance": 9.7
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "East Elmhurst",
+        "avg_fare": 54.61,
+        "total_revenue": 103212.09,
+        "trip_count": 1890,
+        "avg_tip_pct": 20.7,
+        "avg_distance": 9.55
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "Briarwood/Jamaica Hills",
+        "avg_fare": 53.27,
+        "total_revenue": 3089.85,
+        "trip_count": 58,
+        "avg_tip_pct": 6.75,
+        "avg_distance": 9.81
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "Jamaica",
+        "avg_fare": 50.4,
+        "total_revenue": 3981.96,
+        "trip_count": 79,
+        "avg_tip_pct": 5.83,
+        "avg_distance": 9.48
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "Steinway",
+        "avg_fare": 46.31,
+        "total_revenue": 2963.7,
+        "trip_count": 64,
+        "avg_tip_pct": 13.63,
+        "avg_distance": 5.62
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "Richmond Hill",
+        "avg_fare": 46.02,
+        "total_revenue": 2945.42,
+        "trip_count": 64,
+        "avg_tip_pct": 4.62,
+        "avg_distance": 7.05
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "Long Island City/Hunters Point",
+        "avg_fare": 45.74,
+        "total_revenue": 8462.54,
+        "trip_count": 185,
+        "avg_tip_pct": 12.14,
+        "avg_distance": 5.39
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "Elmhurst",
+        "avg_fare": 42.09,
+        "total_revenue": 2651.91,
+        "trip_count": 63,
+        "avg_tip_pct": 5.43,
+        "avg_distance": 5.01
+      },
+      {
+        "PU_Borough": "Brooklyn",
+        "PU_Zone": "Canarsie",
+        "avg_fare": 38.21,
+        "total_revenue": 3438.88,
+        "trip_count": 90,
+        "avg_tip_pct": 1.54,
+        "avg_distance": 9.0
+      },
+      {
+        "PU_Borough": "Brooklyn",
+        "PU_Zone": "East New York",
+        "avg_fare": 34.92,
+        "total_revenue": 4574.21,
+        "trip_count": 131,
+        "avg_tip_pct": 0.6,
+        "avg_distance": 7.95
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "Jackson Heights",
+        "avg_fare": 34.66,
+        "total_revenue": 2738.51,
+        "trip_count": 79,
+        "avg_tip_pct": 8.27,
+        "avg_distance": 5.55
+      },
+      {
+        "PU_Borough": "Brooklyn",
+        "PU_Zone": "East Williamsburg",
+        "avg_fare": 34.11,
+        "total_revenue": 1978.63,
+        "trip_count": 58,
+        "avg_tip_pct": 13.64,
+        "avg_distance": 5.18
+      },
+      {
+        "PU_Borough": "Brooklyn",
+        "PU_Zone": "Flatbush/Ditmas Park",
+        "avg_fare": 33.82,
+        "total_revenue": 2198.03,
+        "trip_count": 65,
+        "avg_tip_pct": 0.47,
+        "avg_distance": 7.31
+      },
+      {
+        "PU_Borough": "Brooklyn",
+        "PU_Zone": "East Flatbush/Remsen Village",
+        "avg_fare": 32.4,
+        "total_revenue": 1879.12,
+        "trip_count": 58,
+        "avg_tip_pct": 0.0,
+        "avg_distance": 7.5
+      }
+    ],
+    "profitable_hours": [
+      {
+        "hour": 0,
+        "total_fare": 23.4,
+        "tip_percentage": 21.25
+      },
+      {
+        "hour": 1,
+        "total_fare": 20.74,
+        "tip_percentage": 21.61
+      },
+      {
+        "hour": 2,
+        "total_fare": 19.45,
+        "tip_percentage": 21.18
+      },
+      {
+        "hour": 3,
+        "total_fare": 21.28,
+        "tip_percentage": 20.3
+      },
+      {
+        "hour": 4,
+        "total_fare": 27.18,
+        "tip_percentage": 18.47
+      },
+      {
+        "hour": 5,
+        "total_fare": 33.54,
+        "tip_percentage": 17.28
+      },
+      {
+        "hour": 6,
+        "total_fare": 26.09,
+        "tip_percentage": 17.86
+      },
+      {
+        "hour": 7,
+        "total_fare": 22.38,
+        "tip_percentage": 19.86
+      },
+      {
+        "hour": 8,
+        "total_fare": 20.96,
+        "tip_percentage": 20.49
+      },
+      {
+        "hour": 9,
+        "total_fare": 21.81,
+        "tip_percentage": 20.31
+      },
+      {
+        "hour": 10,
+        "total_fare": 21.9,
+        "tip_percentage": 19.96
+      },
+      {
+        "hour": 11,
+        "total_fare": 21.19,
+        "tip_percentage": 20.08
+      },
+      {
+        "hour": 12,
+        "total_fare": 21.46,
+        "tip_percentage": 19.88
+      },
+      {
+        "hour": 13,
+        "total_fare": 22.2,
+        "tip_percentage": 19.94
+      },
+      {
+        "hour": 14,
+        "total_fare": 23.41,
+        "tip_percentage": 19.96
+      },
+      {
+        "hour": 15,
+        "total_fare": 23.09,
+        "tip_percentage": 19.98
+      },
+      {
+        "hour": 16,
+        "total_fare": 23.9,
+        "tip_percentage": 22.07
+      },
+      {
+        "hour": 17,
+        "total_fare": 22.04,
+        "tip_percentage": 22.73
+      },
+      {
+        "hour": 18,
+        "total_fare": 20.59,
+        "tip_percentage": 23.23
+      },
+      {
+        "hour": 19,
+        "total_fare": 21.83,
+        "tip_percentage": 23.2
+      },
+      {
+        "hour": 20,
+        "total_fare": 22.01,
+        "tip_percentage": 22.47
+      },
+      {
+        "hour": 21,
+        "total_fare": 22.43,
+        "tip_percentage": 22.37
+      },
+      {
+        "hour": 22,
+        "total_fare": 23.26,
+        "tip_percentage": 21.91
+      },
+      {
+        "hour": 23,
+        "total_fare": 24.81,
+        "tip_percentage": 21.33
+      }
+    ]
+  },
+  "tip_analysis": {
+    "model_performance": {
+      "mae": 5.83,
+      "r2_score": 0.205
+    },
+    "feature_importance": [
+      {
+        "feature": "fare_amount",
+        "importance": 0.7969326972961426
+      },
+      {
+        "feature": "hour",
+        "importance": 0.052357204258441925
+      },
+      {
+        "feature": "day_of_week",
+        "importance": 0.0371985100209713
+      },
+      {
+        "feature": "trip_distance",
+        "importance": 0.03571869432926178
+      },
+      {
+        "feature": "is_rush_hour",
+        "importance": 0.02753702737390995
+      },
+      {
+        "feature": "is_night",
+        "importance": 0.025403093546628952
+      },
+      {
+        "feature": "passenger_count",
+        "importance": 0.02485281229019165
+      },
+      {
+        "feature": "is_weekend",
+        "importance": 0.0
+      }
+    ],
+    "avg_tip_by_hour": {
+      "0": 21.25,
+      "1": 21.61,
+      "2": 21.18,
+      "3": 20.3,
+      "4": 18.47,
+      "5": 17.28,
+      "6": 17.86,
+      "7": 19.86,
+      "8": 20.49,
+      "9": 20.31,
+      "10": 19.96,
+      "11": 20.08,
+      "12": 19.88,
+      "13": 19.94,
+      "14": 19.96,
+      "15": 19.98,
+      "16": 22.07,
+      "17": 22.73,
+      "18": 23.23,
+      "19": 23.2,
+      "20": 22.47,
+      "21": 22.37,
+      "22": 21.91,
+      "23": 21.33
+    },
+    "avg_tip_by_day": {
+      "Friday": 21.21,
+      "Monday": 20.82,
+      "Saturday": 20.84,
+      "Sunday": 21.03,
+      "Thursday": 21.43,
+      "Tuesday": 21.39,
+      "Wednesday": 21.57
+    }
+  },
+  "airport_analysis": {
+    "total_trips": 45805,
+    "avg_fare": 56.0,
+    "avg_tip_pct": 17.34,
+    "hourly_demand": [
+      {
+        "hour": 0,
+        "trip_count": 1337,
+        "avg_fare": 53.08,
+        "avg_tip": 15.67
+      },
+      {
+        "hour": 1,
+        "trip_count": 413,
+        "avg_fare": 58.13,
+        "avg_tip": 15.37
+      },
+      {
+        "hour": 2,
+        "trip_count": 160,
+        "avg_fare": 54.16,
+        "avg_tip": 13.73
+      },
+      {
+        "hour": 3,
+        "trip_count": 209,
+        "avg_fare": 57.86,
+        "avg_tip": 15.2
+      },
+      {
+        "hour": 4,
+        "trip_count": 320,
+        "avg_fare": 57.93,
+        "avg_tip": 15.21
+      },
+      {
+        "hour": 5,
+        "trip_count": 735,
+        "avg_fare": 59.3,
+        "avg_tip": 16.32
+      },
+      {
+        "hour": 6,
+        "trip_count": 1046,
+        "avg_fare": 58.77,
+        "avg_tip": 15.55
+      },
+      {
+        "hour": 7,
+        "trip_count": 1365,
+        "avg_fare": 58.13,
+        "avg_tip": 16.93
+      },
+      {
+        "hour": 8,
+        "trip_count": 1432,
+        "avg_fare": 56.45,
+        "avg_tip": 17.19
+      },
+      {
+        "hour": 9,
+        "trip_count": 1863,
+        "avg_fare": 54.46,
+        "avg_tip": 17.78
+      },
+      {
+        "hour": 10,
+        "trip_count": 2079,
+        "avg_fare": 52.59,
+        "avg_tip": 16.98
+      },
+      {
+        "hour": 11,
+        "trip_count": 1849,
+        "avg_fare": 54.77,
+        "avg_tip": 18.02
+      },
+      {
+        "hour": 12,
+        "trip_count": 2241,
+        "avg_fare": 55.04,
+        "avg_tip": 17.99
+      },
+      {
+        "hour": 13,
+        "trip_count": 2599,
+        "avg_fare": 57.54,
+        "avg_tip": 18.22
+      },
+      {
+        "hour": 14,
+        "trip_count": 3333,
+        "avg_fare": 57.88,
+        "avg_tip": 17.45
+      },
+      {
+        "hour": 15,
+        "trip_count": 3225,
+        "avg_fare": 59.36,
+        "avg_tip": 17.14
+      },
+      {
+        "hour": 16,
+        "trip_count": 3463,
+        "avg_fare": 59.6,
+        "avg_tip": 17.97
+      },
+      {
+        "hour": 17,
+        "trip_count": 2893,
+        "avg_fare": 57.99,
+        "avg_tip": 17.38
+      },
+      {
+        "hour": 18,
+        "trip_count": 2616,
+        "avg_fare": 53.44,
+        "avg_tip": 17.66
+      },
+      {
+        "hour": 19,
+        "trip_count": 2807,
+        "avg_fare": 54.98,
+        "avg_tip": 18.04
+      },
+      {
+        "hour": 20,
+        "trip_count": 2573,
+        "avg_fare": 53.61,
+        "avg_tip": 17.46
+      },
+      {
+        "hour": 21,
+        "trip_count": 2386,
+        "avg_fare": 55.54,
+        "avg_tip": 17.2
+      },
+      {
+        "hour": 22,
+        "trip_count": 2515,
+        "avg_fare": 52.85,
+        "avg_tip": 17.33
+      },
+      {
+        "hour": 23,
+        "trip_count": 2346,
+        "avg_fare": 53.05,
+        "avg_tip": 16.64
+      }
+    ],
+    "pct_of_total": 10.01
+  },
+  "nightlife_analysis": {
+    "total_night_trips": 68753,
+    "pct_of_total": 15.02,
+    "top_nightlife_zones": [
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "JFK Airport",
+        "trips": 4543
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "East Village",
+        "trips": 4233
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "West Village",
+        "trips": 3898
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "Clinton East",
+        "trips": 3119
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "Times Sq/Theatre District",
+        "trips": 3104
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "Greenwich Village South",
+        "trips": 2957
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "Lincoln Square East",
+        "trips": 2508
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "Penn Station/Madison Sq West",
+        "trips": 2399
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "Lower East Side",
+        "trips": 2389
+      },
+      {
+        "PU_Borough": "Queens",
+        "PU_Zone": "LaGuardia Airport",
+        "trips": 2367
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "Midtown Center",
+        "trips": 2060
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "East Chelsea",
+        "trips": 1950
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "Union Sq",
+        "trips": 1832
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "Midtown South",
+        "trips": 1767
+      },
+      {
+        "PU_Borough": "Manhattan",
+        "PU_Zone": "Gramercy",
+        "trips": 1713
+      }
+    ],
+    "weekend_vs_weekday": {
+      "weekend_trips": 27097,
+      "weekday_trips": 41656,
+      "weekend_avg_fare": 17.15,
+      "weekday_avg_fare": 20.23
+    },
+    "hourly_distribution": {
+      "0": 11767,
+      "1": 7627,
+      "2": 5301,
+      "3": 3449,
+      "4": 2150,
+      "22": 22037,
+      "23": 16422
+    }
+  },
+  "ml_results": {
+    "demand_prediction": {
+      "mae": 71.0,
+      "r2_score": 0.899,
+      "feature_importance": {
+        "hour": 0.846,
+        "day_of_week": 0.108,
+        "is_weekend": 0.023,
+        "is_rush_hour": 0.023
+      }
+    },
+    "duration_prediction": {
+      "mae_minutes": 2.98,
+      "rmse_minutes": 4.88,
+      "r2_score": 0.819,
+      "feature_importance": [
+        {
+          "feature": "trip_distance",
+          "importance": 0.7958221435546875
+        },
+        {
+          "feature": "hour",
+          "importance": 0.06942301988601685
+        },
+        {
+          "feature": "day_of_week",
+          "importance": 0.04592125117778778
+        },
+        {
+          "feature": "is_rush_hour",
+          "importance": 0.030799396336078644
+        },
+        {
+          "feature": "PULocationID",
+          "importance": 0.030036799609661102
+        },
+        {
+          "feature": "DOLocationID",
+          "importance": 0.027997344732284546
+        },
+        {
+          "feature": "is_weekend",
+          "importance": 0.0
+        }
+      ]
+    }
+  },
+  "congestion_analysis": {
+    "hourly_speed": [
+      {
+        "hour": 0,
+        "trip_duration": 13.73,
+        "trip_distance": 3.84,
+        "avg_speed_mph": 16.78
+      },
+      {
+        "hour": 1,
+        "trip_duration": 12.68,
+        "trip_distance": 3.23,
+        "avg_speed_mph": 15.28
+      },
+      {
+        "hour": 2,
+        "trip_duration": 12.07,
+        "trip_distance": 3.04,
+        "avg_speed_mph": 15.11
+      },
+      {
+        "hour": 3,
+        "trip_duration": 12.07,
+        "trip_distance": 3.45,
+        "avg_speed_mph": 17.15
+      },
+      {
+        "hour": 4,
+        "trip_duration": 13.69,
+        "trip_distance": 4.81,
+        "avg_speed_mph": 21.08
+      },
+      {
+        "hour": 5,
+        "trip_duration": 16.49,
+        "trip_distance": 6.35,
+        "avg_speed_mph": 23.1
+      },
+      {
+        "hour": 6,
+        "trip_duration": 15.87,
+        "trip_distance": 4.72,
+        "avg_speed_mph": 17.84
+      },
+      {
+        "hour": 7,
+        "trip_duration": 14.83,
+        "trip_distance": 3.5,
+        "avg_speed_mph": 14.16
+      },
+      {
+        "hour": 8,
+        "trip_duration": 15.07,
+        "trip_distance": 3.02,
+        "avg_speed_mph": 12.02
+      },
+      {
+        "hour": 9,
+        "trip_duration": 15.12,
+        "trip_distance": 3.07,
+        "avg_speed_mph": 12.18
+      },
+      {
+        "hour": 10,
+        "trip_duration": 15.26,
+        "trip_distance": 3.03,
+        "avg_speed_mph": 11.91
+      },
+      {
+        "hour": 11,
+        "trip_duration": 14.96,
+        "trip_distance": 2.85,
+        "avg_speed_mph": 11.43
+      },
+      {
+        "hour": 12,
+        "trip_duration": 15.03,
+        "trip_distance": 2.97,
+        "avg_speed_mph": 11.86
+      },
+      {
+        "hour": 13,
+        "trip_duration": 15.39,
+        "trip_distance": 3.11,
+        "avg_speed_mph": 12.12
+      },
+      {
+        "hour": 14,
+        "trip_duration": 16.39,
+        "trip_distance": 3.28,
+        "avg_speed_mph": 12.01
+      },
+      {
+        "hour": 15,
+        "trip_duration": 16.56,
+        "trip_distance": 3.23,
+        "avg_speed_mph": 11.7
+      },
+      {
+        "hour": 16,
+        "trip_duration": 16.87,
+        "trip_distance": 3.41,
+        "avg_speed_mph": 12.13
+      },
+      {
+        "hour": 17,
+        "trip_duration": 15.8,
+        "trip_distance": 3.01,
+        "avg_speed_mph": 11.43
+      },
+      {
+        "hour": 18,
+        "trip_duration": 14.25,
+        "trip_distance": 2.82,
+        "avg_speed_mph": 11.87
+      },
+      {
+        "hour": 19,
+        "trip_duration": 13.92,
+        "trip_distance": 3.2,
+        "avg_speed_mph": 13.79
+      },
+      {
+        "hour": 20,
+        "trip_duration": 13.49,
+        "trip_distance": 3.33,
+        "avg_speed_mph": 14.81
+      },
+      {
+        "hour": 21,
+        "trip_duration": 13.52,
+        "trip_distance": 3.46,
+        "avg_speed_mph": 15.36
+      },
+      {
+        "hour": 22,
+        "trip_duration": 13.84,
+        "trip_distance": 3.62,
+        "avg_speed_mph": 15.69
+      },
+      {
+        "hour": 23,
+        "trip_duration": 14.18,
+        "trip_distance": 4.01,
+        "avg_speed_mph": 16.97
+      }
+    ],
+    "rush_hour_avg_speed": 10.89,
+    "off_peak_avg_speed": 11.78
+  }
+}
