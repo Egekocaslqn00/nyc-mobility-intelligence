@@ -8,7 +8,30 @@ This is an end-to-end data science project designed to understand, predict, and 
 
 ---
 
-## 🌟 Key Features (Step-by-Step)
+## 🌟 Detailed Project Scope & Features
+
+This project encompasses all the capabilities required for a modern urban mobility intelligence platform:
+
+*   **Hourly/Daily Demand Prediction:** Predicts future vehicle needs with 90% accuracy using Machine Learning (Random Forest).
+*   **External Factor Analysis:** Analyzes the correlation between weather, holidays, events, and taxi demand.
+*   **Dynamic Pricing Simulation:** Simulates the impact of price surges during peak demand hours.
+*   **Market Share Analysis:** Visualizes the competition and market share shifts between Yellow Taxis and FHVs (Uber/Lyft).
+*   **Regional Preference Mapping:** Reveals which neighborhoods prefer Uber/Lyft versus Yellow Taxis.
+*   **Driver Revenue Optimization:** Identifies the most profitable pickup locations (hotspots) and hours for drivers.
+*   **Route Optimization:** Suggests the fastest and most efficient routes based on traffic data.
+*   **Real-Time Traffic Prediction:** Estimates real-time traffic density based on historical patterns.
+*   **Precise Duration Estimation:** Calculates trip duration from Point A to Point B with a 3-minute margin of error.
+*   **Congestion Pricing Analysis:** Models the potential impact of city center entry fees (2025 vision) on traffic.
+*   **Airport Transfer Strategy:** Predicts airport passenger demand based on flight schedules and optimizes pricing.
+*   **Socioeconomic Analysis:** Examines the correlation between income levels, tourism density, and taxi usage.
+*   **Nightlife Analysis:** Maps mobility hotspots in entertainment districts during night hours (22:00-04:00).
+*   **Weekday vs. Weekend:** Highlights the characteristic differences between business and leisure trips.
+*   **Tip Prediction Model:** Predicts tip amounts based on distance, time, zone, and payment type (Driver-friendly feature).
+*   **Event-Based Demand:** Forecasts demand spikes caused by major events like concerts or sports games.
+
+---
+
+## 🌟 Key Functions (Step-by-Step)
 
 This project provides critical capabilities needed by transportation companies or city planners:
 

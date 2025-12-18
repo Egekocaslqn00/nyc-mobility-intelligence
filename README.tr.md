@@ -8,7 +8,30 @@ Bu proje, New York City'nin karmaşık ulaşım ağını anlamak, tahminlemek ve
 
 ---
 
-## 🌟 Projenin Temel Özellikleri (Adım Adım)
+## 🌟 Detaylı Proje Kapsamı ve Özellikler
+
+Bu proje, modern bir ulaşım zekası platformunun sahip olması gereken tüm yetenekleri kapsar:
+
+*   **Saatlik/Günlük Talep Tahmini:** Makine öğrenmesi (Random Forest) ile gelecekteki araç ihtiyacını %90 doğrulukla öngörür.
+*   **Dış Faktör Analizi:** Hava durumu, tatil günleri ve özel etkinliklerin taksi talebi üzerindeki etkisini analiz eder.
+*   **Dinamik Fiyatlandırma Simülasyonu:** Talebin yoğun olduğu saatlerde fiyat değişimlerinin etkisini simüle eder.
+*   **Pazar Payı Analizi:** Sarı Taksi ve FHV (Uber/Lyft) arasındaki rekabeti ve pazar payı değişimlerini görselleştirir.
+*   **Bölgesel Tercih Haritası:** Hangi mahallelerde Uber'in, hangilerinde Sarı Taksi'nin tercih edildiğini ortaya çıkarır.
+*   **Sürücü Gelir Optimizasyonu:** Sürücüler için en karlı bekleme noktalarını (hotspots) ve saatleri belirler.
+*   **Rota Optimizasyonu:** Trafik verilerine dayanarak en hızlı ve verimli rotaları önerir.
+*   **Gerçek Zamanlı Trafik Tahmini:** Geçmiş verilerden yola çıkarak anlık trafik yoğunluğunu tahmin eder.
+*   **Hassas Süre Tahmini:** A noktasından B noktasına varış süresini 3 dakika hata payıyla hesaplar.
+*   **Congestion Pricing Analizi:** Şehir merkezine giriş ücretlerinin (2025 vizyonu) trafiğe olası etkilerini modeller.
+*   **Havalimanı Transfer Stratejisi:** Uçuş saatlerine göre havalimanı yolcu talebini tahmin eder ve fiyat optimizasyonu yapar.
+*   **Sosyoekonomik Analiz:** Gelir seviyesi ve turizm yoğunluğu ile taksi kullanımı arasındaki korelasyonu inceler.
+*   **Gece Hayatı Analizi:** Gece saatlerinde (22:00-04:00) eğlence merkezlerindeki hareketliliği haritalandırır.
+*   **Hafta İçi vs Hafta Sonu:** İş ve eğlence amaçlı yolculukların karakteristik farklarını ortaya koyar.
+*   **Bahşiş Tahmin Modeli:** Mesafe, saat, bölge ve ödeme tipine göre bahşiş miktarını tahmin eder (Sürücü dostu özellik).
+*   **Etkinlik Bazlı Talep:** Konser, maç gibi büyük etkinliklerin taksi talebinde yarattığı ani artışları (spike) öngörür.
+
+---
+
+## 🌟 Projenin Temel İşlevleri (Adım Adım)
 
 Bu proje, bir ulaşım şirketinin veya şehir planlamacısının ihtiyaç duyacağı şu kritik yeteneklere sahiptir:
 
